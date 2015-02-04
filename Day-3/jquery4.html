@@ -1,0 +1,40 @@
+<html>
+<head>
+<title></title>
+<script type="text/javascript" src="jquery-2.1.3.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	    	
+
+    $("#ch").click(function(){
+    	console.log($("#ab").text());
+    	if ($("#ab").text()!='Hi') {
+    		
+    		$("#ab").html('Hi');
+
+    	}
+    	else{
+    		$("#ab").html('Hello');
+
+
+    	}
+
+
+    	
+    	
+
+    });
+});
+
+</script>
+
+</head>
+<body>
+
+<p id="ab">Hi
+</p>
+
+<input type="button" id="ch" value="click"/>
+
+</body>
+</html>

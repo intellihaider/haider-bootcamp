@@ -1,0 +1,29 @@
+<html>
+<head>
+<title></title>
+<script type="text/javascript" src="jquery-2.1.3.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	
+    $("body").click(function(){
+    	//$('a[href$=".pdf"]').css('background-color','red');
+    	//$('a[href^="http"]').css('background-color','red');
+    	$('a[title]').css('background-color','red');
+
+    });
+});
+
+</script>
+
+</head>
+<body>
+
+<a href='http://www.google.com/policy.pdf'>Policy</a>
+<a href='www.yahoo.com/logo.png' title='yahoo logo'>View Logo</a>
+<a href='http://www.facebook.com' title='Facebook'>Facebook</a>
+
+
+
+
+</body>
+</html>

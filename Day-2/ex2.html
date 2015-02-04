@@ -1,0 +1,33 @@
+<HTML>
+	<BODY>
+		<H1>My Page
+		</H1>
+		<input type="text" value="haider" name="q" id="q"/>
+		<div id="b">
+		haider ali
+		</div>
+		<SCRIPT TYPE="TEXT/JAVASCRIPT">
+			var d=new Date();
+
+			
+			document.getElementById("q").value=d.toGMTString();
+			changeT("q","hehehe");
+			
+			b.innerHTML = "My new text!";
+			changeI("b","vely");
+			
+			
+			function changeI(id,text){
+			document.getElementById(id).innerHTML =text;
+			
+			}
+			function changeT( id,text){
+			
+			document.getElementById(id).value=text;
+			
+			}
+		
+		</SCRIPT>
+	
+	</BODY>
+</HTML>

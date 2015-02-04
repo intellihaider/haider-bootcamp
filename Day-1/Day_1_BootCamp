@@ -1,0 +1,45 @@
+---------------------------------------------------------
+Linux
+---------------------------------------------------------
+What Is Linux...
+Basic features
+Linux(Multi Programing)
+Extensible
+-r = recursive
+rmdir
+rm -rf dir
+cp -r
+-f = forcefull
+
+ln - HardLink
+
+ln -s
+
+Owner  Group Others
+RWE
+
+Binary values
+
+111 100 101
+7    4   5
+----------------------------------------------------------
+Git
+----------------------------------------------------------
+>Non interference
+>Helps in non linear development
+##########local copy#########
+Commit-has hash
+Staged-
+Workingtree-
+push- Pushing to repository
+pull- getting from server
+Config-
+
+$ Multiple remote possible
+$ Multiple branch possible
+$ Master
+$ Head to latest commit
+$ Uniquely identifies commit
+
+
+Branch-

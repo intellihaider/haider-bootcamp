@@ -1,0 +1,43 @@
+#1#
+alias push='git push'
+
+#2#
+
+ln -s sorce.txt dest.txt
+
+#3#
+
+export MY_HOME= /home/ig
+
+#4#
+export PATH=$PATH:~/myScripts
+
+#5#
+sudo apt-get install cheese
+
+#6#
+
+grep -c "inteligrape" file1.txt
+
+#7#
+
+grep -c "inteligrape" /../a1/*
+
+#8#
+
+wc -l ab.txt
+
+#9#
+
+find -mtime
+
+#10#
+
+scp server file
+
+#11#
+
+mv a.txt b.txt
+
+#12#
+cp a.txt /tmp/b.txt

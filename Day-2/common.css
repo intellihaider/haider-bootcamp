@@ -1,0 +1,54 @@
+
+.container{
+	margin: 40px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left:50px;
+	box-shadow: 0 0 5px #000;
+}
+.scon{
+overflow: auto;
+	border: 1px ;
+	width: 100%
+}
+.listclass{
+	font-family:verdana;
+	font-size:84%;
+	Width: 50%;
+}
+
+.listclass2{
+	list-style-type: none;
+	font-family:verdana;
+	font-size:84%;
+	Width: 50%;
+}
+
+.floatright{
+	float:right;
+
+}
+
+p.clear {
+    clear: both;
+}
+
+.floatleft{
+	float:left;
+
+}
+
+.listcla{
+	font-family:verdana;
+	font-size:300%;
+	font-size: 15px;
+	Width: 70px;
+
+	Height:200px;
+
+	padding: 30px;
+
+	border: 1px solid #666;
+
+	color: blue;
+}
