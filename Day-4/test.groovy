@@ -1,6 +1,3 @@
-
-if('test') { println "test evaluated to true inside if" } 
-
 if("Test") { println "test evaluated to true inside if" }  
 if('null') { println "'null' evaluated to true inside if" }  
 if(null) { println "null evaluated to true inside if" }  

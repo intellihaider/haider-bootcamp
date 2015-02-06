@@ -1,16 +1,22 @@
+import groovy.io.*;
 
-def dir = new File("/usr/ig/Desktop")
+def dir = new File("/home/ig/Desktop")
 
 dir.eachFileRecurse (FileType.FILES) { file ->
-  file.eachLine {
-    println line
-}
+
+
+file.eachLine { line ->
+	println line
 
 }
 
-def dir = new File("/usr/ig/Desktop/b.txt")
-  file.eachLine {
-  	if(it%2!=0){
-    println line
 }
+
+def file = new File("/home/ig/Desktop/Haider Documents/FP.groovy")
+
+file.eachLine { it,line ->
+	if(it%2){
+	println line
+}
+
 }

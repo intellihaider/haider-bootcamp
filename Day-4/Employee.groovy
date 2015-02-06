@@ -2,6 +2,7 @@ import Person;
 
 
 class Employe{
+	String name;
 	String empId; 
 	String company;
 	int salary;
